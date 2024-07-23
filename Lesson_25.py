@@ -12,7 +12,7 @@ print(sum,'\n', multiplication)
 # Task no.2 /The user enters three numbers from the keyboard. The first number is the monthly salary, the second number is the monthly payment on a bank loan, and the third number is the debt for utilities. It is necessary to display the amount that the user will have left after all payments. /
 
 number1 = float(input('Enter your salary: '))
-number2 = float(input('Enter the amount of the loan's debt: '))
+number2 = float(input('Enter the amount of the loans debt: '))
 number3 = float(input('Enter the amount of debt for utilities: '))
 print(number1 - (number2 + number3))
 
