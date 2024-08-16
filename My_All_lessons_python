@@ -1,0 +1,745 @@
+# # # Comment
+# # print('1- Hello IT World')
+# #
+# # name = '2 - Hello world'
+# # print(name)
+# # print(name)
+# # print(name)
+# # # pyton read the code from top to end !!!
+# #
+# # a = 5
+# # b = 3.14
+# # #  в кавычках всегда текст ! Но его можно склеивать плюсом
+# # c = '6'
+# # d = '45654'
+# # print(a + b)
+# # print(c+d)
+# #
+# # sum = 5+7
+# # print('ответ', sum)
+# #
+# # is_true = True
+# # is_false = False
+# # print(is_true, is_false)
+# #
+# # message = 'Hello'
+# # name='Alice'
+# # res=message + ',' + name + '!'
+# # print(res)
+#
+# # name = input('Введите Ваше имя: ')
+# # print('Привет, ' + name + '!')
+# #
+# #
+# # a = input('Ведите число а')
+# # b = input ('Ведите число b')
+# #
+# # print('Ваши числа:,', a, b)
+# #
+# # a = 10
+# # b = 3
+# #
+# # #вычитание
+# # difference = a - b
+# #
+# # #умножение
+# # pr = a * b
+# #
+# # # деление
+# # quot = a / b
+# #
+# # #Целочисленное деление (отбрасывает цифры после запятой)
+# #
+# # int_div = a // b
+# #
+# # # остаток от деления
+# # remainder = a % b
+# #
+# # # возведение в степень
+# # pow = a ** b
+# #
+# # print(difference, quot, remainder, pow, pr, int_div)
+#
+# # Чтобы определить функцию, нужно def
+# # def print_hi(login, password):
+# #     print(f'login {login}')
+# #     print(f'password: {password}')
+# #     print('-------------------------')
+# #
+# #
+# # print_hi('test', 'password')
+# # print_hi('1111', '22222')
+# # print_hi('222', '33333')
+# #
+# #
+# #
+# # a = input('Ведите число а')
+# # b = input ('Ведите число b')
+# # #z = int(a) / int(b)
+# # z = float(a) / float(b)
+# # print('Ваши числа:,', z)
+#
+# # oкруглеие
+# # rounder = round(3.1456789, 3)
+# #
+# # minimum = min(1, 3, 4, 5, 88, 6)
+# # maximun = max(1, 4, 6, 77, 88, 9, 6)
+# # print(maximun, minimum)
+#
+# # Сумма элементов
+# # tot = sum([1, 2, 3])
+# # print(tot)
+#
+# # name = 'Alice'
+# # age = 30
+# #
+# # res = 'Hello ' + name + ' your age is ' + str(age)
+# # res2 = f'Hello, {name}! Your age is {age}'
+# # print(res2)
+#
+# # # Арифметические выражения внутри строки
+# # a = 5
+# # b = 10
+# #
+# # res = f'Summ of {a} and {b} is {a+b}'
+# # print(res)
+#
+# # Перенос текста - добавляем \n или тройные кавычки """ по краям текста
+# # print('Арифметические выражения\n внутри\n строки')
+#
+# # a = int(input('Введите Ваше число'))
+# # b = int(input('Введите Ваше число'))
+# #
+# # res_sum = f'Сумма {a} и {b} равна {a + b}'
+# # res_mult = f'Производное {a} и {b} равно {a * b}'
+# # res_min = f'Разница {a} и {b} равна {a - b}'
+# # print(res_min)
+# # print(res_mult)
+# # print(res_sum)
+#
+# # rounder = round(3.1456789, 0)
+# # print(rounder)
+#
+# # a = float(input('Введите Ваше число'))
+# # b = float(input('Введите Ваше число'))
+# #
+# # res_procent = f'{round(b)} % от {round(a)} составляет {round(a * b / 100)}'
+# # # или:
+# # value = 50
+# # percent = 10
+# # result = value * (percent / 100)
+# # print(res_procent)
+#
+#
+# ==========
+# usermane = 'user'
+# password = 'pass'
+#
+# input_usermane = input('Enter your login')
+# input_passeord = input('Enter your password')
+#
+# is_usermane_correct = input_usermane == usermane
+# is_password_correct = input_passeord == password
+#
+# if is_usermane_correct and is_password_correct:
+#     print('Доступ разрешен')
+# else:
+#     print('Доступ запрещен')
+# ================
+# age = 16
+#
+# age = int(input("Введите ваш возраст:"))
+# if age < 18:
+#     print('Вы несовершеннолетний !')
+# elif age < 65:
+#     print('Вы взрослый')
+# else:
+#     print('Вы пенсионер!')
+# ================
+
+# score = int(input('Enter your score !'))
+#
+# if score >= 100:
+#     print('You won !!!')
+# else:
+#     print('You are looser !!!')
+# # Важно применять отступ в один таб !! Иначе не применится условие!
+# # =========
+#
+# number = input('Enter your number: ')
+# if number%2 == 0:
+#     print('Число четное')
+#     if number == 'a' or 'b':
+#         print('Введите только цифры !!!')
+#
+# else:
+#     print('Это число НЕчетное')
+
+# =+========
+#  My Calculator_Мой Калькулятор !!!
+#
+#
+# while True:
+#      a_input = input('Введите Ваше число:')
+#
+#      if a_input.isdigit():
+#          a_input = float(a_input)
+#          break
+#      else:
+#         print('enter correct number')
+#
+# while True:
+#     b_input = input('Введите Ваше число:')
+#
+#     if b_input.isdigit():
+#         b_input = float(b_input)
+#         break
+#     else:
+#         print('enter correct number')
+#
+# c = input('Выберите действие')
+#
+# res_min = f'Разница {a} и {b} равна {a - b}'
+#
+# if c == '/':
+#     if b == 0:
+#         print('На ноль делить нельзя !!')
+#     else:
+#         print(a / b)
+# if c == '*':
+# res_mult = f'Производное {a} и {b} равно {a * b}'
+#     print(res_mult)
+#
+# elif c == '+':
+# res_sum = f'Сумма {a} и {b} равна {a + b}'
+#     print(res_sum)
+#
+# elif c == '-':
+#     print(res_min)
+# ===========
+#
+# num1 = float(input('enter your number'))
+# num2 = float(input('enter your number'))
+# operation = input('Enter operation +, -, /, *')
+#
+# if operation == '+':
+#     print('Result =', num1 + num2)
+# elif operation == '/':
+#     if num2 == 0:
+#         print('На ноль делить нельзя !!')
+#     else:
+#         print('Result =', num1 / num2)
+# elif operation == '-':
+#     print('Result =', num1 - num2)
+# elif operation == '*':
+#     print('Result =', num1 * num2)
+#
+# =============
+# # Найти макс число
+# num1 = float(input("Пожалуйста, введите число1: "))
+# num2 = float(input("Пожалуйста, введите число2: "))
+# result = num1 == num2
+#
+# if num1 > num2:
+#     print(f"{num1} Это самое большое число")
+# else:
+#     print('Ok', num2)
+#
+#
+# =========
+
+# Массивы
+#
+# fruits = ['apple', 'banana', 'cherry']
+#
+# print(fruits[0])
+#
+# fruits[1] = 'blueberry' # Эта команда меняет имя в массиве
+#
+# fruits.append('melon') # добавляет элемент в массив
+
+# fruits.remove ('apple') # удаляет элемент из массива
+#
+# print(len(fruits)) #  'len' выводит количество элементов в массиве
+#
+# =============
+
+# if 'apple' in fruits: # Поиск в списке
+#     print('Apple is in the list')
+#
+# ====
+
+# fruits = ['apple', 'banana', 'cherry']
+# more_fruits = ['appl', 'banan', 'cherr']
+# all_fruits = fruits + more_fruits # Можно объединять массивы
+# print(all_fruits)
+# =====
+
+# удаление из списка
+#
+# fruits.remove ('apple')
+# print(fruits)
+#
+# ========
+## ЦИКЛЫ
+# FOR
+# for элемент in массив
+#   блок кода
+#
+# for i in range(10):  # выводит список чисел в этом промежутке
+#     print(i)
+#
+# print('===========1')
+# #2 или range (start, stop)
+# for i in range(2, 10):
+#     print(i)
+# print('===========2')
+#
+# # 3 range (start, stop, step)
+# for i in range(2, 10, 3):
+#     print(i)
+# print('===========3')
+#
+# # 3 range backward (start, stop, step)
+# for i in range(10, 1, -2):
+#     if i % 2 ==0: # это для вывода четных чисел!
+#     print(i)
+# print('===========4')
+
+# ============
+
+## While
+
+# while условие:
+#     блок кода
+#
+# count = 0
+# while count <= 6:
+#     print(count)
+#     count += 1 # или можно записать: count = count + 1
+
+# Do while
+
+# do{
+#     блок кода
+# } while условие ;
+
+
+# while True:
+#     блок кода
+#     if not условие:
+#     break
+#
+# count = 0
+# while True:
+#     print(count)
+#     count += 1
+#     if count >= 5:
+#         break
+#         # тут он прибавл]ет пока не выполнится условие
+# ========
+
+# fruits = ['apple', 'banana', 'cherry', 'date']
+# for fruit in fruits:
+#     if fruit == 'cherry':
+#         break
+#     print(fruit)
+# print('End')
+#
+# ========
+
+# continue
+
+# for i in range(10):
+#     if i % 2 == 0: # так он пропустит все четные числа
+#         continue
+#     print(i)
+#  =======
+
+# count = 0
+# while count < 10:
+#     count += 1
+#     if count % 2 == 0: # пропуск четных чисел
+#         continue
+#     print(count)
+#
+# =====
+
+# # это для калькулятора проверка на верные знаки!
+# znaki = ['+', '-', '*', '/']
+# while True:
+#     a = False
+#     znakIn = input('Enter ')
+#     for znak in znaki:
+#         if znak == znakIn:
+#             a = True
+#             break
+#         else:
+#             print('введите верный символ')
+#     if a:
+#         break
+#     #
+# # =======
+
+# isdigit()
+#
+# string1 = '12345'
+# string2 = '123a45'
+# string3 = '567457'
+# string4 = '123 45'
+#
+#
+# print('string1 = ', string1.isdigit())
+# print('string2 = ', string2.isdigit())
+# print('string3 = ', string3.isdigit())
+# print('string4 = ', string4.isdigit())
+# ==========
+
+# Проверка что ввели именно цифры!
+# inNumber = input('Enter number: ')
+# if inNumber.isdigit():
+#     number = int(inNumber)
+#     print(f'You entered a number: {number}')
+# else:
+#     print('Please enter the correct number! ')
+#
+# ======
+
+#
+# number = 12345
+#
+# number_str = str(number)
+#
+# first_digit = number_str[0]
+# second_digit = number_str[3]
+# last_digit = number_str[-2]
+#
+# print(first_digit)
+# print(second_digit)
+# print(last_digit)
+#
+# ======
+## Ввести 10ти значное число и вывести его столбиком
+# base = 0
+# number = input("Enter your number: ")
+# if len(number) == 10 and number.isdigit():
+#     for i in number:
+#        print(i)
+#        base += 1
+# else:
+#     print('Try again')
+
+# =============
+#
+#
+# month = input("Enter your number: ")
+#
+# winter = [12, 1, 2]
+# if month.isdigit():
+#     month = int(month)
+#     if 1 <= month <= 12:
+#         if month in winter:
+#             print('this is winter')
+#         elif month in [3, 4, 5]:
+#             print('Spring')
+#         elif month [6, 7, 8]:
+#             print('Summer')
+#         elif month [9, 10, 11]:
+#             print('Autumn')
+#
+#     else:
+#         print('Enter a number from 1 to 12')
+# else:
+#     print('Enter valid number')
+# ========
+
+## Вводим 6значное числою Надо поменять местами 1 и 6ю цифры, а также 2 и 5ю. Вывести все не экран. Если не выполняются условия, то вывести ошибку!
+# number = input('Enter your 6 digit number: ')
+#
+# if len(number) == 6 and number.isdigit():
+#     # b = int(number)
+#     for i in number:
+#         print(number[5], number[4], number[2], number[3], number[1], number[0])
+#         break
+# else:
+#     print('enter valid number')
+#
+# ======
+# Функции в питоне!
+# def greet():
+#     print('Hello!')
+# greet()
+#
+# =====
+
+# def greet(name):
+#     print(f'Hello, {name}')
+#     print('Hello ' + name)
+# greet('Alex')
+#
+# ======
+
+# Список 5 имен, перебрать каждое имя с функцией
+#
+# def greet(name):
+#     print(f'Hello, {name}')
+#
+# list = ['Alex', 'Max', 'Alise', 'Dik', 'Bob']
+#
+# for name in list:
+#     greet(name)
+# ====
+
+# Функции с параметрами по умолчанию
+
+# def greet(name='Guest', lastName=''):
+#     print(f'Hello, {name} {lastName}!')
+
+# greet() # или так:
+# greet(name: 'Alex', lastName: 'Boss')
+
+# ====
+
+# Функции с возвращаемыми значениями
+
+# def add(a, b):
+#     sum = a + b
+#     return sum
+#
+# result = add(3, 7)
+#
+# result1 = add(a='4', b='9')
+# print(result)
+# print(result1)
+
+# Глобальная переменная
+# x = 10 # глобальная переменная
+#
+# def print_value():
+#     x=5 # локальная переменная
+#     print(x)
+#
+# print_value()
+# print(x)
+# ===
+
+# Слово Глобал
+# x = 10
+# def change_value():
+#     global x
+#     x = 5
+#     print(x)
+#
+# change_value()
+# print(x) # Выводит 5
+
+# ====
+#
+# list = ['Alex', 'Max', '', 'Alise', 'Dik', 'Bob', '']
+# count = 0
+#
+# def greet(name='Guest'):
+#     global count
+#     # count = count + 1 или
+#     count += 1
+#     print(f'{count} - Hello', {name})
+# for name in list:
+#     if name:
+#         greet(name)
+#     else:
+#         greet()
+# # # ======
+
+# Перебратьсписок и возвести в квадрат:
+
+# def sguare(number):
+#     result = number ** 2
+#     print(result)
+#     return result
+#
+# list = [1, 2, 3, 4, 5]
+#
+# for number in list:
+#     sguare(number)
+#
+# # Четное / нечетное число
+
+# def even(number):
+#     result = number % 2
+#     if result == 0:
+#         print('Число четное')
+#     else:
+#         print('Это нечетное число!!')
+#     return result
+#
+# list = [1, 2, 3, 4, 5]
+#
+# for number in list:
+#     even(number)
+#
+# =======
+
+# def string_lenth(s):
+#     return len(s)
+#
+# strings = ['apple', 'banana', 'cherry', 'date', 'orange']
+#
+# for i in strings:
+#     # string_lenth(i)
+#     print('"',i, '"', 'длина строки -',  string_lenth(i))
+#
+#  ========
+#
+# def minimum(spisok):
+#     mini = spisok[0]
+#     for el in spisok:
+#         if el % 1 == 0 and el < mini:
+#             mini = el
+#             print(mini)
+#
+# minimum(spisok = [-1, 0, 1, 2, -2, 3 -3, -1, 4, 5, -5, 6, 7, 8, 9, 10, 11, 1.1, 2.2, 3.3, 4.4, 5.5, 6.6, 7.7, 8.8, 9.9])
+
+# Константы (пишутся только заглавными буквами !!!) Сначала задаем их, потом вызывеем в функциях
+#
+# PI = 3.14
+# GRAVITY = 9.8
+# MAX_CONNECTIONS = 100
+#
+# # использование конст - вычислить радиус
+#
+# def calculate_circle_area(radius):
+#     return PI * (radius ** 2)
+#
+# def calcul_free_fall_time(height):
+#     return (2 * height / GRAVITY) ** 0.5
+#
+# print('circle area is', calculate_circle_area(6))
+# print('time to fall', calcul_free_fall_time(200))
+# print('max allowed connections', MAX_CONNECTIONS)
+#
+# =======
+
+
+# Словари!
+
+# string = {1: 'apple', 2: 'babana', 3: 'cherry', 4: 'date', 5: 'orange'}
+# print(string)
+# string[2] = 'ghtt'
+# print(string)
+#
+# del string[4]
+# print(string)
+
+# for key, fruit in string.items():
+# #     print(f'There are {key}, {fruit}') # так он перебирает все элементы словаря!
+#
+# for fruit in string.values():
+#     print(fruit)
+#     # или
+# fruit_list = list(fruit_list.values):
+#     print(fruit_list)
+#
+# for key in fruit.keys():
+#     print(key)
+#
+# =====
+
+# with open('./txt/new_txt.txt', 'r') as file:
+#     content = file.read()
+#     print(content)
+
+# with open('./txt/new_txt.txt', 'w') as file:   # удаляет все что было и добавляет этот текст в файл
+#     file.write('Hello !!!')
+#
+# # with open('./txt', 'a') as file:     # добавляет текст в файл
+# file.write('Append text')
+
+# with open('./txt/new_txt.txt', 'r+') as file:      # добавляет текст в конец файла
+#     content = file.read()
+#     print(content)
+
+import json
+
+# создание словаря:
+# fruit_inventory = {
+#     'apple': 10,
+#     'banana': 20,
+#     'cherry': 15,
+#     'date': 5,
+#     'orange': 8
+# }
+
+# преобразование словаря в JSON строку
+#
+# fruit_inventory_json = json.dumps(fruit_inventory, indent=4)
+# print(fruit_inventory_json)
+
+# запись JSON строки в файл
+#
+# with open('./txt/fruit_inventory.json', 'w') as json_file:
+#     json.dump(fruit_inventory, json_file, indent=4)
+
+# чтение Json строки из файла
+#
+# with open('./txt/fruit_inventory.json', 'r') as json_file:
+#     loaded_fruit_inentorys = json.load(json_file)
+#
+#     print(loaded_fruit_inentorys)
+
+# import json
+#
+# with open('./txt/fruit_inventory111.json', 'r') as json_file:
+#     loaded_json = json.load(json_file)
+#     print(loaded_json)
+#
+# original_name = loaded_json['data']['node']['originalName']
+# print(original_name)
+#
+# for key, value in loaded_json['data']['node'].items():
+#     if key == 'originalName':
+#         print(f'{key} = {value}')
+#
+#
+#
+# import json
+#
+# with open('./txt/json_students.json', 'r') as j_file:
+#     data = json.load(j_file)
+#
+# for student in data['students']:
+#     name = student['name']
+#     grades = student['grades']
+#     everage_grades = sum(grades) / len(grades)
+#
+#     print(f'name student: {name}, Everage grade: {everage_grades}')
+# ======
+
+#
+# employees = {
+# "employees": [
+#     {"name": "Alice Johnson", "position": "Manager", "salary":60000},
+#     {"name": "Bob Brown", "position": "Developer", "salary":55000},
+#     {"name": "Catherine Green", "position": "Designer", "salary":50000}
+#     ]
+# }
+#
+# employees_json = json.dumps(employees, indent=4)
+# print(employees_json)
+#
+# with open('./txt/employees_new.json.', 'w') as json_empl_file:
+#     json.dump(employees, json_empl_file, indent=4)
+#
+# ========
+
+# задание 3 (teleg)
+with open('./txt/inventory.json', 'r') as json_inven_file:
+    data = json.load(json_inven_file)
+print(data)
+
+for items in data['inventory']:
+    items['quantity'] += 10
+
+with open('./txt/inventory.json', 'w') as json_inv_file:
+    json.dump(data, json_inv_file, indent=4)
+print(data)
+
