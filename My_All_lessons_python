@@ -743,3 +743,38 @@ with open('./txt/inventory.json', 'w') as json_inv_file:
     json.dump(data, json_inv_file, indent=4)
 print(data)
 
+
+
+# Задание 1 /У вас есть JSON-файл users.json , который содержит информацию о пользователях. Каждый пользователь имеет имя, возраст и адрес электронной почты. Ваша задача — написать программу, которая:
+# 1. Читает данные из файла.
+# 2. Проверяет, что у каждого пользователя есть все три поля: имя, возраст и адрес электронной почты.
+# 3. Если какое-то поле отсутствует, программа должна сообщить об этом, не прерывая работы.
+
+import json
+
+
+def check_user_data(user):
+    required_fields = ['name', 'age', 'email']
+    for field in required_fields:
+        if field not in user:
+            print(f"Пользователь {user.get('name', 'Неизвестно')} не имеет поля '{field}'")
+            return False
+    return True
+
+
+def check_end_read_users(filename):
+    try:
+        with open(filename, 'r') as file:
+            users = json.load(file)
+    except FileNotFoundError:
+        print(f"Error: file {filename} not found !")
+        return
+    except json.JSONDecoder:
+        print(f"Error: file {filename} is not a valid JSON")
+        return
+    for user in users:
+        check_user_data(user)
+
+check_end_read_users('./JSON/students.json') # Сюда пишем файл, который нужно открыть
+
+======
