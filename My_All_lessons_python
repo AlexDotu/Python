@@ -778,3 +778,44 @@ def check_end_read_users(filename):
 check_end_read_users('./JSON/students.json') # Сюда пишем файл, который нужно открыть
 
 ======
+
+# ======
+# def get_number():
+#     while True:
+#         first_number = input('Enter your number:')
+#         try:
+#             number = float(first_number)
+#             return number
+#         except ValueError:
+#             print('This is not a number! Try again')
+#
+# def main_funk(): # можно создать и еще функцию под финальное действие
+#     print(get_number())
+# =====
+#
+# spisok = [1, 2, 3, 4]
+#
+# def get_list():
+#     # while True:
+#     user_number = input('Enter your number:')
+#     # for i in spisok:
+#     try:
+#         spisok[user_number] == int(user_number) and spisok[user_number] >=0:
+#                 # return number
+#     except ValueError:
+#         print('This is not a number! Try again')
+#     except IndexError:
+#         print('Entrer correct index')
+#
+#
+# print(get_list())
+# ========
+
+# Модули!!!
+#
+# import math  # или так...
+#
+# from math import sqrt
+# print(math.sqrt(16)) # или
+# print(math.pi)
+# #=====
